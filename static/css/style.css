@@ -1,9 +1,4 @@
-/**
-* Template Name: MyResume - v2.1.0
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -22,6 +17,22 @@ a:hover {
   text-decoration: none;
 }
 
+.inner {
+    width: 550px;
+    margin-left: 190px;
+    margin-right: auto;
+    text-align: center;
+    background: transparent;
+}
+.back{
+ background: rgb(); 
+}
+.aboutin {
+    width: 550px;
+    margin-left: 220px;
+    margin-right: auto;
+    text-align: center;
+    }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
@@ -37,8 +48,8 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #0563bb;
-  color: #fff;
+  background: #121212;
+  color: #eee;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
 }
@@ -118,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   position: fixed;
   top: 0;
-  left: 0;
+  left: 100;
   bottom: 0;
   z-index: 9997;
   transition: all 0.5s;
@@ -1171,3 +1182,4 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+

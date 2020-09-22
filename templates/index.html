@@ -2,20 +2,31 @@
 <html lang="en">
 
 <head>
+  
+<style>
+h1 {
+  text-align: center;
+  color: green;
+}
+p{
+  text-align: center;
+}
+
+</style>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>NarvisOS</title>
+  <title >NarvisOS</title>
+
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{{url_for('static',filename='img/favicon.png')}}" rel="icon">
+  <link href="{{url_for('static',filename='img/narvis-logo.png')}}" rel="icon">
   <link href="{{url_for('static',filename='img/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
   <!-- Vendor CSS Files -->
   <link href="{{url_for('static',filename='vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
   <link href="{{url_for('static',filename='vendor/icofont/icofont.min.css')}}" rel="stylesheet">
@@ -27,16 +38,11 @@
   <!-- Template Main CSS File -->
   <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: MyResume - v2.1.0
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+
 </head>
 
 <body>
-
+<div class="back">
   <!-- ======= Mobile nav toggle button ======= -->
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
@@ -45,10 +51,10 @@
 
     <nav class="nav-menu">
       <ul>
-        <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#portfolio"><i class="bx bx-book-content"></i> <span>WalkThrough</span></a></li>
-        <li><a href="#services"><i class="bx bx-server"></i> <span>Downloads</span></a></li>
-        <li><a href="#about"><i class="bx bx-user"></i> <span>About Us</span></a></li>
+        <li class="active"><a href="#hero"><i class="bx bx-home bx-spin-hover"></i> <span>Home</span></a></li>
+        <li><a href="#portfolio"><i class="bx bx-book-content bx-spin-hover"></i> <span>WalkThrough</span></a></li>
+        <li><a href="#services"><i class="bx bxs-chip bx-spin-hover"></i> <span>Devices</span></a></li>
+        <li><a href="#about"><i class="bx bx-user bx-spin-hover"></i> <span>About Us</span></a></li>
 
       </ul>
     </nav><!-- .nav-menu -->
@@ -56,16 +62,14 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center">
+  <section id="hero" class="d-flex flex-column justify-content-center ">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <div class="inner">
       <h1>NarvisOS</h1>
       <p><span class="typed" data-typed-items="Expect The Unexpected !"></span></p>
       <div class="social-links">
-        <a href="www.google.com" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      <h1>  <a href="https://t.me/NarvisOS" class="telegram"><i class="bx bxl-telegram"></i></a> <a href="http://github.com/NarvisOS" class="github"><i class="bx bxl-github"></i></a></h1>
+</div>
       </div>
     </div>
   </section><!-- End Hero -->
@@ -73,9 +77,11 @@
   <main id="main">
 
     <!-- ======= Walkthrough Section ======= -->
+
+
     <section id="portfolio" class="portfolio section-bg">
       <div class="container" data-aos="fade-up">
-
+          <div class="aboutin">
         <div class="section-title">
           <h2>A Walkthrough</h2>
           <p>Narvis OS follows the idea of simplicity , based of AOSP with minimal needed customizations, focused to gain the most possible performance from your device.</p>
@@ -91,7 +97,7 @@
             </ul>
           </div>
         </div>
-
+</div>
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-ui">
@@ -187,138 +193,32 @@
 
 
 
-    <!-- ======= Downloads Section ======= -->
-    <section id="services" class="services">
+    <!-- ======= Devices Section ======= -->
+
+    <section id="services" class="services section-bg">
       <div class="container" data-aos="fade-up">
+        <div class="aboutin">
 
         <div class="section-title">
-          <h2>Downloads</h2>
+          <h2>Devices</h2>
           <p>Let Friday manage your Device.</p>
         </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-out" data-aos-delay="100">
-            <div class="icon-box iconbox-orange">
-              <div class="icon">
-                
-              <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                <a href="/downloads">
-
-                <g transform="translate(0.000000,600.000000) scale(0.100000,-0.100000)"
-                fill="#000000" stroke="none">
-                <path d="M1247 4413 c-665 -665 -1215 -1221 -1223 -1236 -9 -17 -13 -40 -9
-                -56 4 -18 356 -377 1153 -1173 631 -630 1157 -1151 1169 -1157 13 -6 33 -9 46
-                -6 13 4 108 91 211 194 176 177 186 189 186 225 0 37 -22 61 -901 944 -496
-                498 -910 920 -920 936 -24 39 -24 73 0 112 10 17 532 546 1160 1176 1231 1236
-                1170 1170 1116 1223 l-24 25 -378 0 -378 0 -1208 -1207z"/>
-                <path d="M3605 5211 c-16 -10 -110 -99 -207 -198 -160 -162 -178 -184 -178
-                -214 0 -31 64 -98 919 -954 980 -981 946 -944 922 -1017 -8 -24 -345 -367
-                -1161 -1183 -1038 -1038 -1150 -1153 -1150 -1181 0 -18 9 -42 19 -55 l19 -24
-                378 -3 378 -3 1223 1223 c1215 1215 1223 1223 1223 1263 0 39 -8 48 -1163
-                1202 -639 640 -1169 1163 -1177 1163 -8 0 -28 -9 -45 -19z"/>
-                <path d="M2830 4420 c-16 -16 -20 -33 -20 -84 0 -35 -4 -88 -10 -117 -16 -88
-                -99 -242 -200 -369 -234 -296 -289 -380 -351 -530 -66 -157 -92 -298 -92 -490
-                0 -155 16 -244 67 -374 157 -399 554 -640 944 -572 343 60 612 312 717 671 33
-                111 44 299 26 425 -16 109 -61 257 -117 384 -51 117 -76 148 -99 125 -12 -12
-                -12 -24 2 -89 23 -113 23 -419 0 -530 -21 -99 -85 -239 -123 -269 -55 -44
-                -110 -16 -134 68 -6 20 -15 135 -20 257 -9 226 -19 330 -46 489 -50 293 -155
-                573 -294 783 -63 95 -195 242 -218 242 -6 0 -21 -9 -32 -20z"/>
-                </g>
-              </a>
-              </svg>
-              </div>
-              <h4><a href="/downloads">Sourceforge</a></h4>
-              <p>SF</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box iconbox-blue ">
-              <div class="icon">
-                <svg version="1.1" id="Livello_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
-                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 287.5 250"
-                     enable-background="new 0 0 287.5 250" xml:space="preserve">
-
-                <a href="/downloads">
-                  <metadata>
-                    <sfw  xmlns="&ns_sfw;">
-                      <slices></slices>
-                      <sliceSourceBounds  bottomLeftOrigin="true" height="250" width="287.5" x="-131.8" y="-113"></sliceSourceBounds>
-                    </sfw>
-                  </metadata>
-                  <g>
-                    <g>
-                      <defs>
-                        <path id="SVGID_1_" d="M190.7,0H96.8L0,168.8L45.8,250h195.9l45.8-81.2C287.5,168.8,190.7,0,190.7,0z M92.9,168.8l50.9-87.8
-                          l50.9,87.8H92.9z"/>
-                      </defs>
-                      <clipPath id="SVGID_2_">
-                        <use xlink:href="#SVGID_1_"  overflow="visible"/>
-                      </clipPath>
-                      <g clip-path="url(#SVGID_2_)">
-                        <path fill="#4285F4" d="M45.8,168.8V250h195.9l45.8-81.2H45.8z"/>
-                        
-                          <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="6263.6924" y1="-4322.291" x2="6831.4297" y2="-4630.3159" gradientTransform="matrix(0.125 0 0 -0.125 -713.3438 -330.75)">
-                          <stop  offset="0" style="stop-color:#1A237E;stop-opacity:0.2"/>
-                          <stop  offset="1" style="stop-color:#1A237E;stop-opacity:2.000000e-02"/>
-                        </linearGradient>
-                        <path fill="url(#SVGID_3_)" d="M92.9,168.8L140,250H45.8L92.9,168.8z"/>
-                        <path fill="#FFFFFF" fill-opacity="0.2" d="M92,170.3h192.9l2.7-1.6H92.9L92,170.3z"/>
-                        <path fill="#1A237E" fill-opacity="0.2" d="M284.8,170.3l-44,78.1H46.7l-0.9,1.6h195.9l45.8-81.2L284.8,170.3z"/>
-                        <path fill="#1A237E" fill-opacity="5.000000e-02" d="M93.8,170.3l-0.9-1.6L45.8,250h1.8L93.8,170.3z"/>
-                      </g>
-                    </g>
-                    <g>
-                      <defs>
-                        <path id="SVGID_4_" d="M190.7,0H96.8L0,168.8L45.8,250h195.9l45.8-81.2C287.5,168.8,190.7,0,190.7,0z M92.9,168.8l50.9-87.8
-                          l50.9,87.8H92.9z"/>
-                      </defs>
-                      <clipPath id="SVGID_5_">
-                        <use xlink:href="#SVGID_4_"  overflow="visible"/>
-                      </clipPath>
-                      <g clip-path="url(#SVGID_5_)">
-                        <path fill="#0F9D58" d="M96.8,0L0,168.8L45.8,250L156.2,59.4L96.8,0z"/>
-                        <path fill="#263238" fill-opacity="0.1" d="M96.8,0l0.9,4.6l44.2,76.3L45.8,246.8l-44-78.1H0L45.8,250l98-169.1L96.8,0z"/>
-                        <path fill="#FFFFFF" fill-opacity="0.2" d="M1.8,168.8l96-167.2L96.8,0L0,168.8H1.8z"/>
-                      </g>
-                    </g>
-                    <g>
-                      <defs>
-                        <path id="SVGID_6_" d="M190.7,0H96.8L0,168.8L45.8,250h195.9l45.8-81.2C287.5,168.8,190.7,0,190.7,0z M92.9,168.8l50.9-87.8
-                          l50.9,87.8H92.9z"/>
-                      </defs>
-                      <clipPath id="SVGID_7_">
-                        <use xlink:href="#SVGID_6_"  overflow="visible"/>
-                      </clipPath>
-                      <g clip-path="url(#SVGID_7_)">
-                        <path fill="#FFCD40" d="M190.7,0H96.8l97.8,168.8h92.9L190.7,0z"/>
-                        <path fill="#FFFFFF" fill-opacity="0.2" d="M190.7,0H96.8l2.7,1.6h90.2l96,167.2h1.8L190.7,0z"/>
-                        <path fill="#BF360C" fill-opacity="0.1" d="M195.5,167.2L99.5,1.6L96.8,0l97.8,168.8L195.5,167.2z"/>
-                      </g>
-                    </g>
-                    
-                      <radialGradient id="SVGID_8_" cx="6486.3501" cy="-2666.2124" r="2290.675" gradientTransform="matrix(0.125 0 0 -0.125 -713.3438 -330.75)" gradientUnits="userSpaceOnUse">
-                      <stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.1"/>
-                      <stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
-                    </radialGradient>
-                    <path fill="url(#SVGID_8_)" d="M190.7,0H96.8L0,168.8L45.8,250h195.9l45.8-81.2C287.5,168.8,190.7,0,190.7,0z M92.9,168.8
-                      l50.9-87.8l50.9,87.8H92.9z"/>
-                  </g>
-                </a>
-                  </svg>
-                                  
-              </div>
-              <h4><a href="/downloads">Google Drive</a></h4>
-              <p>Drive</p>
-            </div>
-          </div>
-
+       <link href="{{url_for('static',filename='css/button.css')}}" rel="stylesheet">
+        <button  style="--content: 'Explore Supported Devices!';">
+          <a href="/devices">
+          <div class="left"></div>
+            Explore Supported Devices!
+          <div class="right"></div>
+        </button>
+      </a>
+      </div>
+      </div>
     </section><!-- End Services Section -->
 
     <!-- ======= Testimonials Section ======= -->
     <section id="about" class="testimonials section-bg">
       <div class="container" data-aos="fade-up">
+        <div class="aboutin">
 
         <div class="section-title">
           <h2>Team Narvis</h2>
@@ -330,36 +230,24 @@
             <img src="{{url_for('static',filename='img/testimonials/testimonials-1.jpeg')}}" class="testimonial-img" alt="">
             <h3>Nayan Arora</h3>
             <h4>Lead-dev &amp; Founder</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Never Let The World Change Your Smile , Let Your Smile Change The World!
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
+          
           </div>
 
           <div class="testimonial-item">
-            <img src="{{url_for('static',filename='img/testimonials/testimonials-2.jpg')}}" class="testimonial-img" alt="">
+            <img src="{{url_for('static',filename='img/testimonials/testimonials-2.png')}}" class="testimonial-img" alt="">
             <h3>Wiley L</h3>
             <h4>Co-Founder &amp; Project Manager</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              If love is a lie, then why do we need it. We swear we're alive, but we're falling to pieces.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
+           
           </div>
 
           <div class="testimonial-item">
             <img src="{{url_for('static',filename='img/testimonials/testimonials-3.jpg')}}" class="testimonial-img" alt="">
             <h3>ZèD</h3>
             <h4>Core Developer</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Still ded Zed lel
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
+       
           </div>
         </div>
-
+</div>
       </div>
     </section>
     <!-- End Testimonials Section -->
@@ -369,29 +257,28 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <h3>NarvisOS</h3>
-      <p>Expect The Unexpected !</p>
+      <h3 class="mr-3">NarvisOS</h3>
+      <p >Expect The Unexpected !</p>
       <div class="social-links">
-        <a href="#" class="telegram"><i class="bx bxl-telegram"></i></a> 
-        <a href="#" class="github"><i class="bx bxl-github"></i></a>
-        <a href="#" class="gitlab"><i class="bx bxl-gitlab"></i></a>
+        <a href="https://t.me/NarvisOS" class="telegram"><i class="bx bxl-telegram"></i></a> 
+        <a href="https://github.com/NarvisOS" class="github"><i class="bx bxl-github"></i></a>
       </div>
       <div class="copyright">
-        &copy; Copyright <strong><span>NarvisOS</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>NarvisOS 2020</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: [license-url] -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ 
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
+      </div> -->
     </div>
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
   <div id="preloader"></div>
-
+</div>
   <!-- Vendor JS Files -->
   <script src="{{url_for('static',filename='vendor/jquery/jquery.min.js')}}"></script>
   <script src="{{url_for('static',filename='vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
